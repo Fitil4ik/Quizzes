@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат</title>
+     <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <div>
+        <h1>Результат</h1>
+        <h1 id="quiz-title"></h1>
+    </div>
+    <div class="score-container">
+        <h3>Оцінка:</h3>
+        <div class="score">
+            <span id="score"></span>/<span id="total"></span>
+        </div>
+        <p id="percentage"></p>
+    </div>
+    <div class="nav-buttons">
+        <a href="Main.html" class="button">На головну</a>
+        <a href="Quiz.html" class="button" onclick="retryQuiz()">Почати знову</a>
+    </div>
+
+    <script src="../scripts/utils.js"></script>
+    <script src="../scripts/result.js"></script>
+</body>
+</html>
