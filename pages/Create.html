@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Create quiz</title>
+     <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
-    
+    <h1>Створити вікторину</h1>
+    <form id="create-quiz-form">
+        <label for="quiz-title">Назва:</label><br>
+        <input type="text" id="quiz-title" name="quiz-title" required><br><br>
+        <label for="quiz-description">Опис:</label><br>
+        <textarea id="quiz-description" name="quiz-description" required></textarea><br><br>
+        <a href ="Main.html" class="button">Створити</a>
 </body>
 </html>
